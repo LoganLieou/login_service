@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (modules user db_manager main types)
+ (libraries sqlite3 yojson dream))
